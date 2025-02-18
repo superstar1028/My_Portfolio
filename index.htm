@@ -82,15 +82,15 @@
         <a onclick="navTo('home')"><i class="fa fa-arrow-up contact-title"></i></a>
     </div> -->
     <!-- navigation menu -->
-    <nav style="width: 100%; position: fixed; z-index: 300;" class="">
+    <nav style="width: 100%; position: fixed; z-index: 300;" >
         <div class="navbar">
             <div class="logo"><a href="Resume-KKJ.pdf">MY RESUME</a></div>
             <ul class="menu" style="margin-bottom: 0px;">
-                <li class="li"><a onclick="navTo(&#39;home&#39;)">Home</a></li>
+                <li class="li"><a onclick="navTo(&#39;home&#39;) ">Home</a></li>
                 <li class="li"><a onclick="navTo(&#39;about&#39;)">About</a></li>
                 <li class="li"><a onclick="navTo(&#39;skills&#39;)">Skills</a></li>
                 <li class="li"><a onclick="navTo(&#39;services&#39;)">Services</a></li>
-                <li class="li"><a onclick="navTo(&#39;prices&#39;)">Prices</a></li>
+                <!-- <li class="li"><a onclick="navTo(&#39;prices&#39;)">Prices</a></li> -->
                 <li class="li"><a onclick="navTo(&#39;myworks&#39;)">Portfolio</a></li>
                 <li class="li"><a onclick="navTo(&#39;contact&#39;)">Contact</a></li>
                 <div class="cancel-btn">
@@ -145,20 +145,23 @@
     <br><br>
     <div class="w3-container w3-padding-large" style="position: relative; z-index: 2;">
         <div id="about" style="margin-top: -100px; height: 170px;"></div>
-        <div class="w3-col l4" style="display: flex; justify-content: center; opacity: 0.9; margin-top: -70px; margin-left: 50px;">
-            <img data-src="./res/3.png" class="avatar lazy" style="min-height: 200px; min-width: 200px; max-width: 400px; margin: 10px; transform: translate(0px, 0px); opacity: 1;" src="res/me.webp">
+        <div class="w3-col l4" style="display: flex; justify-content: center; opacity: 0.9; margin-top: -90px; margin-left: 50px; ">
+            <img data-src="./res/3.png" class="avatar lazy" style= "z-index: 4; border-radius: 50%; min-height: 200px; min-width: 200px; width: 400px; height: 400px; margin: 10px; transform: translate(0px, 0px); opacity: 1;">
         </div>
         <div class="w3-col l7 description">
-            <h3><span class="bold_font_1">𝒯𝒽𝒶𝓃𝓀𝓈 𝒻𝑜𝓇 𝓎𝑜𝓊𝓇 𝓋𝒾𝓈𝒾𝓉!</span><br><br>I'm <span class="bold_font_1">RIKU NOLAN</span>, <span class="bold_font_1">A Senior Full Stack
-                    Engineer</span>.<br>
-                    Experienced Software Engineer with a
-                    decade of expertise in full-stack
-                    development.</br> Proven proficiency in
+            <h3><span class="bold_font_1">𝒯𝒽𝒶𝓃𝓀𝓈 𝒻𝑜𝓇 𝓎𝑜𝓊𝓇 𝓋𝒾𝓈𝒾𝓉!</span><br><br>I am &nbsp;&nbsp;<span class="bold_font_1" style="font-weight: bold;color:red;">Riku Nolan</span><div class="bold_font_1">A Senior Full Stack
+                    Engineer</div><br>
+                    &nbsp; Experienced Software Engineer with a
+                    decade of expertise</br> in full-stack
+                    development.</br>
+                    &nbsp; Proven proficiency in
                     designing, implementing, testing, and
                     maintaining software solutions within
-                    project timelines.</br> Demonstrates mastery
+                    project timelines.</br>
+                    &nbsp; Demonstrates mastery
                     in programming languages including
-                    Java, Python, and JavaScript.</br> Skilled in
+                    Java, Python, and JavaScript.</br> 
+                    &nbsp; Skilled in
                     utilizing technologies like React, Spring
                     Boot, and Node.js
             </h3>
@@ -193,7 +196,7 @@
                     <div class="green">
                         <div class="progress" style="background: transparent;">
                             <div class="inner">
-                                <div class="percent"><span>&nbsp;&nbsp;99</span>%</div>
+                                <div class="percent"><span>&nbsp;&nbsp;92</span>%</div>
                                 <div class="water"></div>
                                 <div class="glare"></div>
                             </div>
@@ -231,7 +234,7 @@
                     <div class="green">
                         <div class="progress" style="background: transparent;">
                             <div class="inner">
-                                <div class="percent"><span>&nbsp;&nbsp;100</span>%</div>
+                                <div class="percent"><span>&nbsp;&nbsp;93</span>%</div>
                                 <div class="water"></div>
                                 <div class="glare"></div>
                             </div>
@@ -268,7 +271,7 @@
                         - JavaScript: Angular.js, React.js, Next.js<br>
                         - Node.js: Express.js, Nest.js<br>
                         - PHP: Laravel, CodeIgniter<br>
-                        - Frontend: Bootstrap/Foundation, HTML, CSS(Less/SCSS), jQuery<br>
+                        - Frontend: Bootstrap/Foundation, HTML, CSS(Less/SCSS), <br>&nbsp;&nbsp;&nbsp;jQuery<br>
                         - Backend: NodeJs, Spring, PHP<br>
                         - Database: MySQL, MongoDB, PostgreSQL<br>
                     </p>
@@ -329,12 +332,12 @@
     </div>
     <br>
     <!-- Pricing -->
-    <h2 class="title" style=" position: relative; z-index: 2;">
+    <!-- <h2 class="title" style=" position: relative; z-index: 2;">
         <div id="prices" style="margin-top: -100px; height: 100px;"></div>
         <span class="title-word title-word-1">Hourly</span>
         <span class="title-word title-word-2">Rates</span>
-    </h2>
-    <div class="container mt-5" style=" position: relative; z-index: 2; opacity: 0.9;">
+    </h2> -->
+    <!-- <div class="container mt-5" style=" position: relative; z-index: 2; opacity: 0.9;">
         <div class="row mt-5">
             <div class="col-md-4 mt-5">
                 <div class="content-inner fl-wrap">
@@ -434,7 +437,7 @@
                                     </ul>
                                 </ul>
                             </div>
-                            <!-- <div class="bg " style="background-image: url(./res/rate_backend.webp);"></div>
+                            <div class="bg " style="background-image: url(./res/rate_backend.webp);"></div>
                             <div class="overlay"></div>
                             <div class="inner">
                                 <h2>Backend Development &amp;<br> Computing Service</h2>
@@ -443,7 +446,7 @@
                                     <li>DB design</li>
                                     <li>Bot Development</li>
                                 </ul>
-                            </div>-->
+                            </div>
                         </div>
                     </div>
                     <div class="content-back">
@@ -473,8 +476,7 @@
             </div>
 
         </div>
-    </div>
-
+    </div> -->
     <!-- My Previous Works -->
     <div class="container" style=" position: relative; z-index: 2; margin-top: 100px;">
         <div id="myworks" style="margin-top: -100px; height: 100px;"></div>
@@ -569,15 +571,15 @@
             </defs>
         </svg>
         <div class="w3-row-padding w3-center w3-padding-24 w3-border w3-border-dark-grey" style="margin:0px; padding: 0px!important; margin-top: -50px;">
-            <div class="w3-col l4 w3-dark-grey">
+            <div class="w3-col l4">
                 <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
                 <p><a href="mailto:%shinee.world.contact@gmail.com?Subject=I%27d%20like%20to%20have%20a%20interview%20with%20you." style="text-decoration: underline; color: white;">s.p.alpah0503@gmail.com</a></p>
             </div>
-            <div class="w3-col l4">
+            <!-- <div class="w3-col l4">
                 <p><i class="fa fa-clock-o w3-xxlarge w3-text-light-grey"></i></p>
                 <p>Full Time Availability</p>
-            </div>
-            <div class="w3-col l4  w3-dark-grey">
+            </div> -->
+            <div class="w3-col l4">
                 <p><i class="fa fa-github w3-xxlarge w3-text-light-grey"></i></p>
                 <p><a href="https://github.com/superstar1028" target="_blank" title="https://github.com/superstar1028" style="text-decoration: underline; color: white;"> Git Hub </a></p>
             </div>
@@ -585,11 +587,11 @@
                 <p><i class="fa fa-telegram w3-xxlarge w3-text-light-grey"></i></p>
                 <p><a href="https://t.me/superstar1225" target="_blank" title="https://t.me/superstar1225" style="text-decoration: underline; color: white;"> Telegram </a></p>
             </div>
-            <div class="w3-col l4  w3-dark-grey">
+            <!-- <div class="w3-col l4  w3-dark-grey">
                 <p><i class="fa fa-skype w3-xxlarge w3-text-light-grey"></i></p>
                 <p><a href="https://join.skype.com" target="_blank" title="https://join.skype.com" style="text-decoration: underline; color: white;"> Skype </a></p>
-            </div>
-            <div class="w3-col l4">
+            </div> -->
+            <!-- <div class="w3-col l4">
                 <p>
                     <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" class="svg-inline--fa fa-discord" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 640 512" style="width: 45px">
                         <path fill="currentColor" d="M524.5 69.84a1.5 1.5 0 0 0 -.764-.7A485.1 485.1 0 0 0 404.1 32.03a1.816 
@@ -606,15 +608,15 @@
                     219.1c29.67 0 53.31 26.82 52.84 59.24C470.7 310.1 447.5 337.6 417.9 337.6z"></path>
                     </svg>
                 </p>
-                <p><a href="https://discord.com/superstar1225" target="_blank" title="https://discord.com/superstar1225" style="text-decoration: underline; color: white;">
+                <p><a href="https://discord.com" target="_blank" title="https://discord.com" style="text-decoration: underline; color: white;">
                         Discord </a></p>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <!-- footer -->
     <div class="footer" style=" position: relative; z-index: 2;">
-        <p class="contact-title"> © RIKU NOLAN </p>
+        <p class="contact-title" style="font-size: 30px; font-weight: bold;"> © RIKU NOLAN </p>
     </div>
 
     <!-- Button -->
